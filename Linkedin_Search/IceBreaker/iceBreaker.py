@@ -7,7 +7,7 @@ from Linkedin_Lookup.Linkedin_Lookup_Agent import lookup
 from Third_Parties.Linkedin_Summary import scrape_linkedin_profile
 
 
-linkedin_URL = lookup(name="Albin_sabu_Germany_bavaria_FAU_Electromobility_sagar_enterprises ")
+linkedin_URL = lookup(name="Daniel_Mogl_sürjalanien_Nuremberg_Siemens_Healthineers")
 
 print('found it', linkedin_URL)
 
@@ -20,8 +20,6 @@ if __name__ == "__main__":
     given the  linkedin information {information} about a person I want you to create:
     1. A short summary
     2. two interesting facts about them
-    3. analyze profile for Project Management in production job and give ranking from 0 to 100(only number no extra information)
-    4. chances of getting hired by top tier companies (yes or no)
     """
 
     summary_prompt_template = PromptTemplate(
