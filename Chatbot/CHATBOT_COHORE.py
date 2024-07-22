@@ -23,7 +23,7 @@ prompt = ChatPromptTemplate.from_messages(
         ("user","Question:{question}")
     ]
 )
-st.title('Langchain demo with Cohore')
+st.title('Chatbot with Langchain & Cohore')
 input_text = st.text_input('Search the topic you want to search')
 
 llm = ChatCohere()
