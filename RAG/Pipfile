@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+langchain-cohere = "*"
+python-dotenv = "*"
+streamlit = "*"
+langserve = "*"
+fastapi = "*"
+uvicorn = "*"
+sse-starlette = "*"
+beautifulsoup4 = "*"
+pypdf = "*"
+chromadb = "*"
+faiss-cpu = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.4"
